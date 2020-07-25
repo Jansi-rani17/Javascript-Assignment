@@ -1,0 +1,70 @@
+<html>
+<body>
+<script>
+var mark = prompt('Enter your mark');
+let result;
+
+if (mark<30) {
+ result=console.log(`Marks are ${mark} and grade is F`);
+} 
+else if(mark>45) {
+    result=console.log(`Marks are ${mark} and grade is C`);
+}
+else if(mark>50) {
+    result=console.log(`Marks are ${mark} and grade is B`);
+}
+else if(mark>80) {
+    result=console.log(`Marks are ${mark} and grade is A`);
+}
+else if(mark>90) {
+    result=console.log(`Marks are ${mark} and grade is O`);
+}
+
+/*
+<html>
+<body>
+<script>
+var mark = prompt('Enter your mark');
+let result= mark<=40?`Marks are ${mark} and grade is E`:
+           mark<=50?`Marks are ${mark} and grade is D`:
+           mark<=60?`Marks are ${mark} and grade is C`:
+           mark<=70?`Marks are ${mark} and grade is B`:
+           mark<=80?`Marks are ${mark} and grade is A`:
+           mark<=90?`Marks are ${mark} and grade is O`:
+           `You are fail!`;
+  console.log(result);        
+  */
+
+ /* <html>
+<body>
+<script>
+var mark = Number(prompt('Enter your mark'));
+let result;
+switch (mark) {
+  case 30:
+    result = `Marks are ${mark} and grade is E`;
+    break;
+  case 40:
+    result =`Marks are ${mark} and grade is D`;
+    break;
+  case 50:
+    result= `Marks are ${mark} and grade is C`;
+    break;
+  case 60:
+   result = `Marks are ${mark} and grade is B`;
+    break;
+  case 70:
+    result = `Marks are ${mark} and grade is A`;
+    break;
+  case 80:
+   result = `Marks are ${mark} and grade is O`;
+    break;
+    default:
+  result=`You are fail!`;
+}
+console.log(result);*/
+
+</script>
+</body>
+</html>
+
